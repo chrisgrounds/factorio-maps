@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import axios from 'axios';
 
 const bytesToMB = (bytes: number) => (bytes / Math.pow(1024, 2)).toFixed(2);
 
